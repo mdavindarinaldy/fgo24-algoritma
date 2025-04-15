@@ -20,7 +20,7 @@ l]
 B[/r/]
 C[k = 2 x phi x r]
 D[l = phi x r x r]
-E[/'"K dan L"'/]
+E[/'"k dan l"'/]
 F(((Selesai)))
 
 A --> X --> B --> C & D
