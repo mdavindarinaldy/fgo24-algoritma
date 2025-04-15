@@ -39,8 +39,8 @@ DECLARE X: INTEGER
 
 INPUT X
 
-IF < X>0 > THEN
-    IF < X MOD 2 = 0 > THEN
+IF X>0 THEN
+    IF X MOD 2 = 0 THEN
         OUTPUT "GENAP"
     ELSE
         OUTPUT "GANJIL"
