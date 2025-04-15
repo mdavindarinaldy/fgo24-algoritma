@@ -11,3 +11,22 @@ Langkah-langkah:
 6. Jika bilangan yang dimasukkan tidak habis dibagi 2, maka bilangan tersebut merupakan bilangan ganjil
 7. Mencetak hasil bilangan yang dimasukkan merupakan bilangan genap atau ganjil
 8. Selesai
+
+# Flowchart
+
+```mermaid
+flowchart TD
+A((Mulai))
+B[/X/]
+C{X merupakan bilangan positif}
+D{X modulo 2 = 0}
+E[/Genap/]
+F[/Ganjil/]
+G(((Selesai)))
+
+A --> B --> C --YES--> D
+C --NO--> B
+D --YES--> E
+D --NO--> F
+E & F --> G
+```
