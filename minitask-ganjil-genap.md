@@ -30,3 +30,21 @@ D --YES--> E
 D --NO--> F
 E & F --> G
 ```
+
+# Pseudo-Code
+```
+// Program Ganjil Genap
+
+DECLARE X: INTEGER
+
+INPUT X
+
+IF < X>0 > THEN
+    IF < X MOD 2 = 0 > THEN
+        OUTPUT "GENAP"
+    ELSE
+        OUTPUT "GANJIL"
+    ENDIF
+ENDIF    
+
+```
