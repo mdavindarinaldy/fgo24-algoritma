@@ -26,3 +26,21 @@ F(((Selesai)))
 A --> X --> B --> C & D
 C & D --> E --> F
 ```
+
+# Pseudocode
+
+```
+DECLARE phi : REAL
+DECLARE k : REAL
+DECLARE l : REAL
+DECLARE r : REAL
+
+CONSTANT phi = 3.14
+INPUT r
+
+k <- 2 * phi * r
+l <- phi * r * r
+
+OUTPUT "Keliling : ", k
+OUTPUT "Luas : ", l
+```
