@@ -17,11 +17,11 @@ Langkah-langkah:
 ```mermaid
 flowchart TD
 A((Mulai))
-B[/X/]
+B[/Input X/]
 C{X merupakan bilangan positif}
 D{X modulo 2 = 0}
-E[/Genap/]
-F[/Ganjil/]
+E[/Output: Genap/]
+F[/Output: Ganjil/]
 G(((Selesai)))
 
 A --> B --> C --YES--> D
