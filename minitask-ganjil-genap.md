@@ -18,7 +18,7 @@ Langkah-langkah:
 flowchart TD
 A((Mulai))
 B[/X/]
-C{X merupakan bilangan positif}
+C{X > 0}
 D{X % 2 == 0}
 E[/'"Genap"'/]
 F[/'"Ganjil"'/]
