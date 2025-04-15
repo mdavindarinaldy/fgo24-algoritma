@@ -22,10 +22,10 @@ E[/'"Genap"'/]
 F[/'"Ganjil"'/]
 G(((Selesai)))
 
-A --> B --> C --YES--> D
-C --NO--> B
-D --YES--> E
-D --NO--> F
+A --> B --> C --Ya--> D
+C --Tidak--> B
+D --Ya--> E
+D --Tidak--> F
 E & F --> G
 ```
 
@@ -37,12 +37,13 @@ DECLARE X: INTEGER
 
 INPUT X
 
-IF X>0 THEN
-    IF X MOD 2 = 0 THEN
-        OUTPUT "GENAP"
-    ELSE
-        OUTPUT "GANJIL"
-    ENDIF
-ENDIF    
+WHILE X<0 
+    INPUT X
+ENDWHILE
 
+IF X MOD 2 = 0 THEN
+    OUTPUT "GENAP"
+ELSE
+    OUTPUT "GANJIL"
+ENDIF   
 ```
