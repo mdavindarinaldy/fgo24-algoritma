@@ -19,9 +19,9 @@ flowchart TD
 A((Mulai))
 B[/X/]
 C{X merupakan bilangan positif}
-D{X modulo 2 = 0}
-E[/"Genap"/]
-F[/"Ganjil"/]
+D{X % 2 == 0}
+E[/'"Genap"'/]
+F[/'"Ganjil"'/]
 G(((Selesai)))
 
 A --> B --> C --YES--> D
