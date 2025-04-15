@@ -27,3 +27,22 @@ H(((Selesai)))
 
 A --> B --> C --> D & E & F --> G --> H
 ```
+
+# Pseudocode
+```
+DECLARE C : REAL
+DECLARE F : REAL
+DECLARE K : REAL
+DECLARE R : REAL
+
+INPUT C
+
+F <- (9/5 * C) + 32
+K <- C + 273
+R <- 4/5 * C
+
+OUTPUT "Hasil Konversi Celcius ke Fahrenheit", F
+OUTPUT "Hasil Konversi Celcius ke Kelvin", K
+OUTPUT "Hasil Konversi Celcius ke Reamur", R
+
+```
