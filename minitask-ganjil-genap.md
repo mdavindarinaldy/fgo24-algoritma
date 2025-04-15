@@ -4,12 +4,10 @@ Membuat algoritma menentukan bilangan ganjil atau genap
 
 Langkah-langkah:
 1. Mulai
-2. Memasukkan nilai yang akan dicek merupakan bilangan ganjil atau genap
-3. Mengecek nilai yang dimasukkan berupa bilangan positif
-4. Jika nilai yang dimasukkan benar merupakan bilangan positif, maka lanjut ke langkah berikutnya, jika tidak maka kembali ke langkah ke-2
-5. Jika bilangan yang dimasukkan dapat habis dibagi 2, maka bilangan tersebut merupakan bilangan genap
-6. Jika bilangan yang dimasukkan tidak habis dibagi 2, maka bilangan tersebut merupakan bilangan ganjil
-7. Mencetak hasil bilangan yang dimasukkan merupakan bilangan genap atau ganjil
+2. Memasukkan X
+4. Jika X lebih besar dari 0, maka lanjutkan ke langkah berikutnya, jika tidak maka kembali ke langkah kedua
+5. Jika X dapat habis dibagi 2, maka outputkan "genap"
+6. Jika X tidak habis dibagi 2, maka outputkan "ganjil"
 8. Selesai
 
 # Flowchart
