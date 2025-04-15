@@ -41,6 +41,5 @@ INPUT r
 k <- 2 * phi * r
 l <- phi * r * r
 
-OUTPUT "Keliling : ", k
-OUTPUT "Luas : ", l
+OUTPUT k," dan ", l
 ```
